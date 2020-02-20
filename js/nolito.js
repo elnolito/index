@@ -59,7 +59,9 @@ function loadVoices() {
 
 
 function speech(){
+  document.querySelector("audio").play();
   speechSynthesis.cancel();
   utterance.text = randomizeText();
+  utterance.pitch = 0.6;
   speechSynthesis.speak(utterance);
 }
