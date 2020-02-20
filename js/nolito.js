@@ -28,7 +28,8 @@ let dictionary = ["chi disprezza compra",
   "se non avessi la barba",
   "ho la riunione del calcio",
   "se hai bisogno bussa",
-  "non ci sono"];
+  "non ci sono",
+",mi è entrata una ciglia nell'occhio"];
 
 let openDictionary = [...dictionary];
 
