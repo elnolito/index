@@ -42,6 +42,14 @@ function randomizeText(){
   return out;
 }
 
+document.addEventListener("DOMContentLoaded", function(event) {
+  let options = ["sombrero","mariaci"];
+  let i = Math.floor(Math.random()*options.length);
+  console.log("Playing:"+ options[i]);
+  document.querySelector("source").src = options[i] + ".mp3";
+  document.querySelector("audio").load();
+});
+
 let utterance = new SpeechSynthesisUtterance();
 let voices = [];
 
