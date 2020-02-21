@@ -29,8 +29,8 @@ let dictionary = ["chi disprezza compra",
   "ho la riunione del calcio",
   "se hai bisogno bussa",
   "non ci sono",
-  ",mi è entrata una ciglia nell'occhio",
-  "non capisco perchÃ¨ sono sempre un benchmark negativo",
+  "mi è entrata una ciglia nell'occhio",
+  "non capisco perche sono sempre un benchmark negativo",
   "mi raccomando gli allineamenti"];
 
 let openDictionary = [...dictionary];
