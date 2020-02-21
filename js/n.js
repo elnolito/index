@@ -4,7 +4,7 @@ function ShowMeNolito() {
     let protocol = window.location.protocol;
     let host = window.location.host;
     let newUrl = 'nolito.html';
-    window.location.href = newUrl;
+    window.location = newUrl;
   } else {
     alert("Nada!");
   }
