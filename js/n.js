@@ -1,9 +1,7 @@
 function ShowMeNolito() {
   let answer = prompt("contraseña", "Hola!");
   if (answer === 'El Nolito Claro!') {
-    let protocol = window.location.protocol;
-    let host = window.location.host;
-    let newUrl = 'nolito.html';
+    let newUrl = 'x1xD/nolito.html';
     window.location = newUrl;
   } else {
     alert("Nada!");
