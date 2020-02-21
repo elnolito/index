@@ -30,7 +30,7 @@ let dictionary = ["chi disprezza compra",
   "se hai bisogno bussa",
   "non ci sono",
   "mi è entrata una ciglia nell'occhio",
-  "non capisco perche sono sempre un benchmark negativo",
+  "non capisco perchè sono sempre un benchmark negativo",
   "mi raccomando gli allineamenti"];
 
 let openDictionary = [...dictionary];
